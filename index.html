@@ -24,13 +24,13 @@
       place-items: center; /* This shorthand centers content both vertically and horizontally */
       height: 100%;
       margin: 250px;
-      background-color: #f0f0f0;
+      background: #89CFF0;
     }
     
 
     .card {
-      width: 200px;
-      height: 350px;
+      width: 275px;
+      height: 450px;
       background-color: white;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -38,6 +38,12 @@
       margin-bottom: auto;
       text-align: center;
       font-size: 12px;
+      font-family: monospace;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     }
     .card img {
       width: 100%; 
