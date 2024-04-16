@@ -6,28 +6,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | QR code component</title>
   <style>
-    .attribution {
-      font-size: 11px;
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      position: absolute;
-      bottom: 0;  
-    }
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-
-    body, html {
-      display: grid;
-      place-items: center; /* This shorthand centers content both vertically and horizontally */
-      height: 100%;
-      margin: 250px;
-      background: #89CFF0;
-    }
     
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-items: center;
+      background: #c8d0d3;
+    }
 
+    
     .card {
       width: 275px;
       height: 450px;
@@ -35,16 +24,17 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       padding: 20px;
-      margin-bottom: auto;
       text-align: center;
       font-size: 12px;
       font-family: monospace;
       transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
+    
     .card:hover {
       transform: scale(1.05);
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     }
+    
     .card img {
       width: 100%; 
       height: auto; 
@@ -52,6 +42,17 @@
       margin-bottom: 20px; 
     }
     
+  
+    .attribution {
+      font-size: 11px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
 <body>
@@ -66,3 +67,4 @@
   </div>
 </body>
 </html>
+
